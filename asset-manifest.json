@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/prototipo_Veranum/static/css/main.abc477b4.css",
-    "main.js": "/prototipo_Veranum/static/js/main.80ee3236.js",
+    "main.css": "/prototipo_Veranum/static/css/main.4c155aa2.css",
+    "main.js": "/prototipo_Veranum/static/js/main.be2baa91.js",
     "static/media/hotel.jpg": "/prototipo_Veranum/static/media/hotel.2556ce722959fda97dc1.jpg",
     "static/media/bar.jpg": "/prototipo_Veranum/static/media/bar.730c1015439cdca66386.jpg",
     "static/media/massage.jpg": "/prototipo_Veranum/static/media/massage.68038931e1e3f68f372f.jpg",
@@ -10,11 +10,11 @@
     "static/media/breakFAST.jpg": "/prototipo_Veranum/static/media/breakFAST.a47b83bfaf196887e3a4.jpg",
     "static/media/dinner.jpg": "/prototipo_Veranum/static/media/dinner.b08bf90f3563aa5effd3.jpg",
     "index.html": "/prototipo_Veranum/index.html",
-    "main.abc477b4.css.map": "/prototipo_Veranum/static/css/main.abc477b4.css.map",
-    "main.80ee3236.js.map": "/prototipo_Veranum/static/js/main.80ee3236.js.map"
+    "main.4c155aa2.css.map": "/prototipo_Veranum/static/css/main.4c155aa2.css.map",
+    "main.be2baa91.js.map": "/prototipo_Veranum/static/js/main.be2baa91.js.map"
   },
   "entrypoints": [
-    "static/css/main.abc477b4.css",
-    "static/js/main.80ee3236.js"
+    "static/css/main.4c155aa2.css",
+    "static/js/main.be2baa91.js"
   ]
 }
