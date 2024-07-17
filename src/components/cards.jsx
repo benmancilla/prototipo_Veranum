@@ -3,6 +3,8 @@ import room from '../img/room.jpg'
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import '../styles/card.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './reserva'
+import CreateFormReserva from './reserva';
 
 
 const CreateCard = ({img,name,alt,url1}) => {
@@ -10,8 +12,9 @@ const CreateCard = ({img,name,alt,url1}) => {
         <div className="col">
             <div className="card">
             <div style={{ backgroundImage: `url(${img})` }} className="card-img-top" id="card-paint" alt={alt} onClick={() => window.location.href = url1}></div>
-                <div className="card-body">
+                <div className="card-body" data-bs-toggle="modal" href="#ReservToggle">
                     <h5 className="card-title">{name}</h5>
+                    <btn className='btn'>reserva</btn>
                 </div>
             </div>
         </div>
@@ -89,7 +92,19 @@ const CreateCardGroup = () => {
                             <span className="carousel-control-next-icon" aria-hidden="true"></span>
                             <span className="visually-hidden">Next</span>
                         </button>
+                        <div className="modal fade" id="ReservToggle" aria-hidden="true" aria-labelledby="ModalToggleLabel" tabIndex="-1">
+                                <div className="modal-dialog modal-dialog-centered">
+                                    <div className="modal-content">
+                                        <div className="modal-header">
+                                            <h5 className="modal-title" id="ModalToggleLabel">Reserva</h5>
+                                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <CreateFormReserva/>
+                                    </div>
+                                </div>
+                        </div>
                     </div>
+                    
                 );
             }
         };

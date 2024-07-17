@@ -128,3 +128,11 @@ body, html {
     text-align: center;
     width: 70vw;
 }
+
+.modal-body {
+    color: black;
+}
+
+.modal-title{
+    color: black;
+}
